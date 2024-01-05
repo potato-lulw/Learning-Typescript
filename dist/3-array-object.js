@@ -19,3 +19,12 @@ let user = {
     age: 28,
     id: 1
 };
+user.id = 2;
+console.log(user);
+// type inference with object literals 
+let person = {
+    firstName: 'Rahul',
+    lastName: 'Mehta',
+    age: 20,
+    email: 'mehta@gmail.com'
+};
