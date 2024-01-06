@@ -22,3 +22,5 @@ const outputPost = (post) => {
     console.log(`Author: ${post.author.name}`);
 };
 outputPost(newPost);
+// using interfaces with arrays
+let post = [newPost];
