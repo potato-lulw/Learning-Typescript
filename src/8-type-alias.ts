@@ -22,7 +22,7 @@ type User = {
 const userOne: User = {name : 'Mario', age: 20};
 
 function formatUser(user: User): void {
-    console.log(`${user.name} ${user.age}`)
+    console.log(`${user.name}, ${user.age}`)
 }
 
-formatUser(userOne);
+formatUser(userOne)

@@ -9,6 +9,6 @@ const getRandomColor = () => {
 console.log(getRandomColor());
 const userOne = { name: 'Mario', age: 20 };
 function formatUser(user) {
-    console.log(`${user.name} ${user.age}`);
+    console.log(`${user.name}, ${user.age}`);
 }
 formatUser(userOne);
