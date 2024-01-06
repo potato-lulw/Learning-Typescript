@@ -9,7 +9,7 @@ let anotherID;
 anotherID = 'ID123';
 anotherID = '123';
 // one problem 
-function swapIdType(id) {
+function swapIdType9(id) {
     // parseInt(id) // -> not allowed because id can be a number 
     parseInt("5"); //-->  allowed 
     return id;

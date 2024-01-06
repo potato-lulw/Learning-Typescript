@@ -20,7 +20,7 @@ anotherID = '123';
 
 // one problem 
 
-function swapIdType(id: ID): ID {
+function swapIdType9(id: ID): ID {
     // parseInt(id) // -> not allowed because id can be a number 
     parseInt("5") //-->  allowed 
     return id
